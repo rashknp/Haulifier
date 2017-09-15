@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="archived_label">Delete</string>
+    <dimen name="text_size_extra_large">23sp</dimen>
+    <string name="undo_label"><u>Undo</u></string>
+    <string name="app_name">Haulifier</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lbl_yes">YES</string>
+    <string name="lbl_no">NO</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_pwd">Password</string>
+    <string name="no_data">No data found</string>
+    <string name="prompt_forget_pwd">Forgot Password?</string>
+    <string name="action_sign_in">Sign IN</string>
+    <string name="truck_type">Truck Type:</string>
+    <string name="no_internet">No Internet !</string>
+    <!--<string name="truck_type">truck Type:</string>
+    <string name="truck_type">truck Type:</string>
+    <string name="truck_type">truck Type:</string>
+    <string name="truck_type">truck Type:</string>
+    <string name="truck_type">truck Type:</string>-->
+
+
+
+
+
+
+
+
+
+</resources>

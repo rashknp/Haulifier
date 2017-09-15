@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/logo"
+                android:layout_marginTop="50dp" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabel"
+                android:id="@+id/TIUserName"
+                android:layout_marginTop="60dp">
+
+                <com.limitless.haulified.Haulifier.utils.EditTextRegular
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:background="@null"
+                    android:padding="8dp"
+                    android:textSize="12sp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/email"
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="@color/lightGreyy"
+
+                    />
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightGreyy"/>
+            </android.support.design.widget.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/TextLabel">
+
+                    <com.limitless.haulified.Haulifier.utils.EditTextRegular
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:background="@null"
+                        android:padding="8dp"
+                        android:textSize="12sp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/pass"
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:textColorHint="@color/lightGreyy" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightGreyy"/>
+                </android.support.design.widget.TextInputLayout>
+                <ImageView
+                    android:src="@drawable/eye_close"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:padding="10dp"
+                    android:id="@+id/viewPass"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/ivRememberMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tick" />
+
+                <com.limitless.haulified.Haulifier.utils.TextViewRegular
+                    android:visibility="gone"
+                   android:drawablePadding="30dp"
+                    android:id="@+id/remember"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remember Me "
+                    android:textSize="12sp"
+                    android:padding="5dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <com.limitless.haulified.Haulifier.utils.TextViewRegular
+                    android:id="@+id/forget"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryDark"/>       </LinearLayout>
+
+<android.support.v7.widget.CardView
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp">
+            <Button
+                android:id="@+id/signin"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_sign_in"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary" />
+</android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.limitless.haulified.Haulifier">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.limitless.haulified.Haulifier.Activity.SplassActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.OfferQuote1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.UserList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.TruckerList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.UserDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.Update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.DeliveryItemDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.FilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.ForgetPasswordFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.Terms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.Privacy"
+            android:screenOrientation="portrait" />
+        <activity
+        android:name="com.limitless.haulified.Haulifier.Activity.Support"
+        android:screenOrientation="portrait" />
+        <activity
+        android:name="com.limitless.haulified.Haulifier.Activity.AboutUs"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.DeliveriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.limitless.haulified.Haulifier.Activity.CommisionCalcutaor"
+            android:screenOrientation="portrait" />
+
+
+
+    </application>
+
+</manifest>

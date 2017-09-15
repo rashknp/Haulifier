@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Consignment and demo Policy"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white" />
+
+        <WebView
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:src="@drawable/add" />
+
+        <com.limitless.haulified.Haulifier.utils.TextViewBold
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version: 1.0.0.0"
+            android:textColor="@color/colorPrimary1" />
+
+        <com.limitless.haulified.Haulifier.utils.TextViewRegular
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http://www.starkeyindia.com"
+            android:textColor="@color/colorPrimary1" />
+
+        <com.limitless.haulified.Haulifier.utils.TextViewRegular
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="copy"
+
+            android:textColor="@color/colorPrimary1" />
+
+
+    </LinearLayout>
+</ScrollView>

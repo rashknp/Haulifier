@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/round"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Status"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@color/dark_blue"/>
+
+    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/tvNavText"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmed"/>
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGrey"/>
+    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+        android:visibility="gone"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick up"/>
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGrey"/>
+    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+        android:visibility="gone"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In Delivery"/>
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGrey"/>
+    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+        android:visibility="gone"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivered"/>
+
+</LinearLayout>

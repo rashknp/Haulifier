@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+    <item
+
+        android:title="Cancel"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always" />
+
+    <item
+
+        android:title=""
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always" />
+    <item
+
+        android:id="@+id/action_search"
+        android:title="Add User"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always" />
+
+    <item
+
+        android:title=""
+        app:showAsAction="always"
+        appcompat:showAsAction="always" />
+
+
+    <item
+
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:id="@+id/action_submit"
+        android:title="Submit"
+        app:showAsAction="always"
+        appcompat:showAsAction="always" />
+
+</menu>

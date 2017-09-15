@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+            android:textColor="@color/colorPrimary1"
+            android:layout_marginTop="10dp"
+           android:gravity="center_vertical"
+            android:id="@+id/booking_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Booking Id"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:background="@drawable/roundcorner"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bookText"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+
+
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+
+                        android:textSize="15sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Booking Price"
+                        android:textColor="@color/lightGrey"
+                        />
+
+                <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:id="@+id/booking_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:padding="10dp"
+                    android:text="00" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <!-- <LinearLayout
+        android:layout_weight="0.7"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextViewMedium
+                android:id="@+id/booking_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#123433" />
+
+            <TextViewMedium
+                android:id="@+id/item_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 NOS" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@color/lightGreyy" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                            android:id="@+id/vehicle_avail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="1"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20sp" />
+
+                        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                            android:id="@+id/quotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:drawablePadding="-40dp"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="vehicles"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightGreyy" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                            android:id="@+id/quote_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="1"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20sp" />
+
+                        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                            android:id="@+id/quotes_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:drawablePadding="-50dp"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="Quote Made"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightGreyy" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/grey"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:visibility="gone">
+
+                <ImageView
+
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/location" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17"
+                    android:orientation="vertical">
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/pickup_loc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="2dp"
+                        android:text="Del" />
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/delivery_loc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:text="Mum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/pickup_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:text="12/06/2012" />
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/destination_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:text="12/06/2012" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="2dp"
+                android:paddingLeft="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/pickup_location"
+                        android:layout_weight="0.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="2dp"
+                        android:text="Quote Price" />
+
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+
+                        android:id="@+id/quote_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:text="July 27,2017" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:paddingBottom="3dp"
+                        android:text="Commission" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.limitless.haulified.Haulifier.utils.EditTextRegular
+                            android:paddingLeft="5dp"
+                            android:text="0"
+                            android:inputType="number"
+                            android:id="@+id/commission"
+                            android:layout_weight="0.5"
+                            android:background="#FFB6C1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                            android:layout_weight="1.5"
+                            android:textSize="20sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                          android:text="  %" />
+                    </LinearLayout>
+
+
+                    <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                        android:id="@+id/commision_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="2dp"
+                        android:text="00" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.11AM" />
+
+                <com.limitless.haulified.Haulifier.utils.TextViewMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:text="11.11AM" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/publish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/dark_blue"
+            android:gravity="center"
+            android:text="Publish"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:gravity="center"
+            android:text="Add User"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <com.limitless.haulified.Haulifier.utils.TextViewMedium
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/calculate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Calculate"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>
